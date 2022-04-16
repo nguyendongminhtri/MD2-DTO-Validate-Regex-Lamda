@@ -31,6 +31,7 @@ public class UserController {
                 case "pm":
                     Role pmRole = roleServiceIMPL.findByName(RoleName.PM);
                     roleSet.add(pmRole);
+                    break;
                 case "user":
                     Role userRole = roleServiceIMPL.findByName(RoleName.USER);
                     roleSet.add(userRole);
